@@ -1,0 +1,45 @@
+track assembly_
+shortLabel hg38 cenRefModels
+longLabel hg38 centromere reference models (orientation issue)
+priority 12
+visibility dense
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl bbi/hg38_cenRefModels.OrientationIssue.bb
+type bigBed 6
+html ../trackDescriptions/assembly
+url http://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database
+group map
+
+track gap_
+shortLabel Gap
+longLabel Gap
+priority 13
+visibility dense
+color 0,0,0
+bigDataUrl bbi/hg38_cenRefModels.OrientationIssue.gap.bb
+type bigBed 4
+html gap
+group map
+
+track hmmerHORs
+shortLabel HMMER AS HORs
+longLabel HMMER annotation of HORs in the alpha satellite
+group varRep
+priority 10
+visibility dense
+type bigBed 9
+itemRgb on
+bigDataUrl bbi/nhmmer-AS-SF-HORs-hg38_cenRefModels.OrientationIssue.bb
+
+track perconAS
+shortLabel PERCON AS SF
+longLabel PERCON annotation of alpha satellite suprachromosomal families
+group varRep
+priority 11
+visibility dense
+type bigBed 9
+itemRgb on
+bigDataUrl bbi/percon-AS-SF-hg38_cenRefModels.OrientationIssue.bb

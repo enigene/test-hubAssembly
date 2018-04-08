@@ -1,0 +1,32 @@
+genome LinearCen1.1_IMGvar1
+trackDb LinearCen1.1_IMGvar1/trackDb.txt
+#groups groups.txt
+description hg38 cenRefModels Orientation Issue
+twoBitPath LinearCen1.1_IMGvar1/hg38_cenRefModels.OrientationIssue.2bit
+organism Homo Sapiens
+defaultPos GJ212126.X:1-63536
+orderKey 4700
+scientificName Homo Sapiens
+htmlPath LinearCen1.1_IMGvar1/description.html
+
+genome chr6SPL
+trackDb chr6-SPL/trackDb.txt
+#groups groups.txt
+description corrected fragment M668M61N
+twoBitPath chr6-SPL/668M61N.2bit
+organism Homo Sapiens
+defaultPos chr6:1-573671
+orderKey 4700
+scientificName Homo Sapiens
+htmlPath chr6-SPL/description.html
+
+genome CHM1
+trackDb long-contigs/trackDb.txt
+#groups groups.txt
+description contigs from PacBio
+twoBitPath long-contigs/LMBB01000006.1.2bit
+organism Homo Sapiens
+defaultPos LMBB01000006.1:1-796320
+orderKey 4700
+scientificName Homo Sapiens
+htmlPath long-contigs/description.html

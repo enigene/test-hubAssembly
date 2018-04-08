@@ -1,0 +1,34 @@
+track assembly_
+shortLabel chr6 SPL100318
+longLabel Corrected fragment M668M61N from CM000668.2 by SPL 10 March 2018
+priority 12
+visibility dense
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl bbi/668M61N.bb
+type bigBed 6
+html ../trackDescriptions/assembly
+url http://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database
+group map
+
+track hmmerHORs
+shortLabel HMMER AS HORs
+longLabel HMMER annotation of alpha satellite HORs
+group varRep
+priority 10
+visibility dense
+type bigBed 9
+itemRgb on
+bigDataUrl bbi/hmmer-AS-HORs-668M61N.bb
+
+track perconAS
+shortLabel PERCON AS SF
+longLabel PERCON annotation of alpha satellite suprachromosomal families
+group varRep
+priority 11
+visibility dense
+type bigBed 9
+itemRgb on
+bigDataUrl bbi/percon-AS-SF-668M61N.bb

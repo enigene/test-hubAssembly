@@ -1,0 +1,6 @@
+hub AS_annotations
+shortLabel AS annotations
+longLabel Alpha-satellite annotations
+genomesFile genomes.txt
+email ivanalx@hotmail.com
+descriptionUrl AS-annotations.html
