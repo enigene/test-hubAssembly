@@ -29,7 +29,7 @@ shortLabel RepeatMasker
 longLabel Repeating Elements by RepeatMasker
 group varRep
 priority 149.1
-visibility full
+visibility dense
 type bed 3 .
 noInherit on
 
@@ -97,7 +97,7 @@ noInherit on
     maxWindowToDraw 10000000
     colorByStrand 50,50,150 150,50,50
     type bigBed 6 +
-    bigDataUrl bbi/rmsk.LowComplexity.bb
+    bigDataUrl bbi/rmsk.Low_complexity.bb
 
     track repeatMaskerSatellite_
     parent repeatMasker_
