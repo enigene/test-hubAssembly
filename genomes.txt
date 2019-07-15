@@ -30,3 +30,14 @@ defaultPos LMBB01000006.1:1-796320
 orderKey 4700
 scientificName Homo Sapiens
 htmlPath long-contigs/description.html
+
+genome CHM13
+trackDb CHM13/trackDb.txt
+#groups groups.txt
+description Assembly draft v0.6
+twoBitPath CHM13/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID.2bit
+organism Homo Sapiens
+defaultPos chrX:19692000-60986000
+orderKey 4700
+scientificName Homo Sapiens
+htmlPath long-contigs/description.html

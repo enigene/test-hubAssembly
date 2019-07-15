@@ -1,0 +1,122 @@
+track assembly_
+shortLabel CHM13_chrX
+longLabel Alpha satellite annotation of CHM13 chrX draft assembly v0.6
+priority 12
+visibility dense
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl bbi/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID.fa.chrom.sizes.bb
+type bigBed 6
+html ../trackDescriptions/assembly
+url https://github.com/nanopore-wgs-consortium/chm13
+urlLabel NCBI Nucleotide database
+group map
+
+track hmmerHORs
+shortLabel HMMER AS HORs
+longLabel HMMER annotation of alpha satellite HORs
+group varRep
+priority 10
+visibility dense
+type bigBed 9
+itemRgb on
+bigDataUrl bbi/human-T2T-chrX-HumAS-HMMER3.0-22042018.hmm-150719.bb
+
+track repeatMasker_
+compositeTrack on
+shortLabel RepeatMasker
+longLabel Repeating Elements by RepeatMasker
+group varRep
+priority 149.1
+visibility full
+type bed 3 .
+noInherit on
+
+    track repeatMaskerSINE
+    parent repeatMasker
+    shortLabel SINE
+    longLabel SINE Repeating Elements by RepeatMasker
+    priority 1
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.SINE.bb
+
+    track repeatMaskerLINE
+    parent repeatMasker
+    shortLabel LINE
+    longLabel LINE Repeating Elements by RepeatMasker
+    priority 2
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.LINE.bb
+
+    track repeatMaskerLTR
+    parent repeatMasker
+    shortLabel LTR
+    longLabel LTR Repeating Elements by RepeatMasker
+    priority 3
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.LTR.bb
+
+    track repeatMaskerDNA
+    parent repeatMasker
+    shortLabel DNA
+    longLabel DNA Repeating Elements by RepeatMasker
+    priority 4
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.DNA.bb
+
+    track repeatMaskerSimple
+    parent repeatMasker
+    shortLabel Simple
+    longLabel Simple Repeating Elements by RepeatMasker
+    priority 5
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.Simple_repeat.bb
+
+    track repeatMaskerLowComplexity
+    parent repeatMasker
+    shortLabel Low Complexity
+    longLabel Low Complexity Repeating Elements by RepeatMasker
+    priority 6
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.LowComplexity.bb
+
+    track repeatMaskerSatellite
+    parent repeatMasker
+    shortLabel Satellite
+    longLabel Satellite Repeating Elements by RepeatMasker
+    priority 7
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.Satellite.bb
+
+    track repeatMaskerRNA
+    parent repeatMasker
+    shortLabel RNA
+    longLabel RNA Repeating Elements by RepeatMasker
+    priority 8
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl bbi/rmsk.RNA.bb
