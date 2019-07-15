@@ -7,7 +7,7 @@ colorByStrand 150,100,30 230,170,40
 color 150,100,30
 altColor 230,170,40
 bigDataUrl bbi/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID.fa.chrom.sizes.bb
-type bigBed 6
+type bigBed 4
 html ../trackDescriptions/assembly
 url https://github.com/nanopore-wgs-consortium/chm13
 urlLabel Project page
