@@ -37,7 +37,7 @@ trackDb CHM13/trackDb.txt
 description CHM13 Assembly draft v0.6
 twoBitPath CHM13/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID.2bit
 organism Homo Sapiens
-defaultPos chrX:19692000-60986000
+defaultPos chrX:57370500-60986000
 orderKey 4700
 scientificName Homo Sapiens
 htmlPath long-contigs/description.html
