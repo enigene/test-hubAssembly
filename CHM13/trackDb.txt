@@ -10,7 +10,7 @@ bigDataUrl bbi/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID
 type bigBed 6
 html ../trackDescriptions/assembly
 url https://github.com/nanopore-wgs-consortium/chm13
-urlLabel NCBI Nucleotide database
+urlLabel Project page
 group map
 
 track hmmerHORs
@@ -33,8 +33,8 @@ visibility full
 type bed 3 .
 noInherit on
 
-    track repeatMaskerSINE
-    parent repeatMasker
+    track repeatMaskerSINE_
+    parent repeatMasker_
     shortLabel SINE
     longLabel SINE Repeating Elements by RepeatMasker
     priority 1
@@ -44,8 +44,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.SINE.bb
 
-    track repeatMaskerLINE
-    parent repeatMasker
+    track repeatMaskerLINE_
+    parent repeatMasker_
     shortLabel LINE
     longLabel LINE Repeating Elements by RepeatMasker
     priority 2
@@ -55,8 +55,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.LINE.bb
 
-    track repeatMaskerLTR
-    parent repeatMasker
+    track repeatMaskerLTR_
+    parent repeatMasker_
     shortLabel LTR
     longLabel LTR Repeating Elements by RepeatMasker
     priority 3
@@ -66,8 +66,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.LTR.bb
 
-    track repeatMaskerDNA
-    parent repeatMasker
+    track repeatMaskerDNA_
+    parent repeatMasker_
     shortLabel DNA
     longLabel DNA Repeating Elements by RepeatMasker
     priority 4
@@ -77,8 +77,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.DNA.bb
 
-    track repeatMaskerSimple
-    parent repeatMasker
+    track repeatMaskerSimple_
+    parent repeatMasker_
     shortLabel Simple
     longLabel Simple Repeating Elements by RepeatMasker
     priority 5
@@ -88,8 +88,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.Simple_repeat.bb
 
-    track repeatMaskerLowComplexity
-    parent repeatMasker
+    track repeatMaskerLowComplexity_
+    parent repeatMasker_
     shortLabel Low Complexity
     longLabel Low Complexity Repeating Elements by RepeatMasker
     priority 6
@@ -99,8 +99,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.LowComplexity.bb
 
-    track repeatMaskerSatellite
-    parent repeatMasker
+    track repeatMaskerSatellite_
+    parent repeatMasker_
     shortLabel Satellite
     longLabel Satellite Repeating Elements by RepeatMasker
     priority 7
@@ -110,8 +110,8 @@ noInherit on
     type bigBed 6 +
     bigDataUrl bbi/rmsk.Satellite.bb
 
-    track repeatMaskerRNA
-    parent repeatMasker
+    track repeatMaskerRNA_
+    parent repeatMasker_
     shortLabel RNA
     longLabel RNA Repeating Elements by RepeatMasker
     priority 8
