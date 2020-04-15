@@ -21,6 +21,7 @@ priority 10
 visibility dense
 type bigBed 9
 itemRgb on
+maxItems 100000
 bigDataUrl bbi/human-T2T-chrX-HumAS-HMMER3.0-22042018.hmm-150719.bb
 
 track repeatMasker_

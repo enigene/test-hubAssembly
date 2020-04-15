@@ -32,6 +32,7 @@ priority 10
 visibility dense
 type bigBed 9
 itemRgb on
+items 100000
 bigDataUrl bbi/nhmmer-AS-SF-HORs-hg38_cenRefModels.OrientationIssue.bb
 
 track perconAS
@@ -42,4 +43,5 @@ priority 11
 visibility dense
 type bigBed 9
 itemRgb on
+items 100000
 bigDataUrl bbi/percon-AS-SF-hg38_cenRefModels.OrientationIssue.bb
