@@ -21,6 +21,7 @@ priority 10
 visibility dense
 type bigBed 9
 itemRgb on
+maxItems 100000
 bigDataUrl bbi/hmmer-AS-HORs-668M61N.bb
 
 track perconAS
@@ -31,4 +32,5 @@ priority 11
 visibility dense
 type bigBed 9
 itemRgb on
+maxItems 100000
 bigDataUrl bbi/percon-AS-SF-668M61N.bb
