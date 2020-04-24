@@ -1,6 +1,5 @@
 genome LinearCen1.1_IMGvar1
 trackDb LinearCen1.1_IMGvar1/trackDb.txt
-#groups groups.txt
 description hg38 cenRefModels Orientation Issue
 twoBitPath LinearCen1.1_IMGvar1/hg38_cenRefModels.OrientationIssue.2bit
 organism Homo Sapiens
@@ -11,7 +10,6 @@ htmlPath LinearCen1.1_IMGvar1/description.html
 
 genome chr6SPL
 trackDb chr6-SPL/trackDb.txt
-#groups groups.txt
 description corrected fragment M668M61N
 twoBitPath chr6-SPL/668M61N.2bit
 organism Homo Sapiens
@@ -22,7 +20,6 @@ htmlPath chr6-SPL/description.html
 
 genome CHM1
 trackDb long-contigs/trackDb.txt
-#groups groups.txt
 description contigs from PacBio
 twoBitPath long-contigs/LMBB01000006.1.2bit
 organism Homo Sapiens
@@ -33,11 +30,20 @@ htmlPath long-contigs/description.html
 
 genome CHM13
 trackDb CHM13/trackDb.txt
-#groups groups.txt
 description CHM13 Assembly draft v0.6
 twoBitPath CHM13/chrX_fixedBionanoSV_centromereV4_racon_patch139_arrow_arrow-newID.2bit
 organism Homo Sapiens
 defaultPos chrX:57370500-60986000
+orderKey 4700
+scientificName Homo Sapiens
+htmlPath long-contigs/description.html
+
+genome CHM13.chrX_v0.7
+trackDb CHM13.chrX_v0.7/trackDb.txt
+description CHM13 Assembly draft v0.7
+twoBitPath CHM13.chrX_v0.7/chm13.chrX_v0.7.2bit
+organism Homo Sapiens
+defaultPos chrX_v0.7:57796622-61128817
 orderKey 4700
 scientificName Homo Sapiens
 htmlPath long-contigs/description.html
