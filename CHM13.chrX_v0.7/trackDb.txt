@@ -1,0 +1,102 @@
+track assembly_
+shortLabel CHM13_chrX_v0.7
+longLabel Alpha satellite annotation of CHM13 chrX assembly v0.7
+priority 1
+visibility dense
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl bbi/chm13.chrX_v0.7.bb
+type bigBed 4
+html ../trackDescriptions/assembly
+url https://github.com/nanopore-wgs-consortium/chm13
+urlLabel Project page
+group assembly
+
+track hmmerHORs
+shortLabel HMMER AS HORs
+longLabel HMMER annotation of alpha satellite HORs
+group varRep
+priority 10
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/AS-HORs-chm13.draft_v0.7_chrX-vs-AS-HORs-AS-HORS-hmmer3.0-22042018.bb
+
+track HORhaplotypes
+shortLabel HOR haplotypes
+longLabel HMMER HOR haplotypes
+group varRep
+priority 11
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/AS-haplotypes-T2T-cenX-100420-chm13.chrX_v0.7.bb
+
+track SPL_cenX_v0.7
+shortLabel cenX v0.7 mons
+longLabel PERCON annotation of AS monomers in T2T CHM13 chrX
+group varRep
+priority 12
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/RGB_cenX_12.bb
+
+track SPL_cenX_v0.7_p2_mons
+shortLabel cenX v0.7 mons
+longLabel Annotation of AS HORs in T2T CHM13 chrX
+group varRep
+priority 13
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/map07h12.bb
+
+track SPL_cenX_v0.7_HORi
+shortLabel cenX v0.7 HORi
+longLabel Annotation of HORs with information in T2T CHM13 chrX
+group varRep
+priority 14
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/map07i12.bb
+
+track SPL_cenX_v0.7_D_ATTTA
+shortLabel cenX v0.7 D_ATTTA
+longLabel Annotation of deletion ATTTA in T2T CHM13 chrX
+group varRep
+priority 15
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/map07mna.bb
+
+track SPL_cenX_v0.7_F_CCT
+shortLabel cenX v0.7 F_CCT
+longLabel Annotation of deletion CCT in T2T CHM13 chrX
+group varRep
+priority 16
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/map07mnc.bb
+
+track SPL_cenX_v0.7_J_GATC
+shortLabel cenX v0.7 J_GATC
+longLabel Annotation of deletion GATC in T2T CHM13 chrX
+group varRep
+priority 17
+visibility dense
+type bigBed 9
+itemRgb on
+maxItems 100000
+bigDataUrl bbi/map07mng.bb
