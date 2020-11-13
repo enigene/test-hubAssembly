@@ -41,3 +41,5 @@ defaultPos chrX:57370500-60986000
 orderKey 4700
 scientificName Homo Sapiens
 htmlPath long-contigs/description.html
+blat blatx.soe.ucsc.edu 17879
+transBlat blatx.soe.ucsc.edu 17878
