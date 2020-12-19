@@ -37,8 +37,6 @@ defaultPos chrX:57370500-60986000
 orderKey 4700
 scientificName Homo Sapiens
 htmlPath long-contigs/description.html
-blat 85.89.113.150 17879
-transBlat 85.89.113.150 17878
 
 genome CHM13.chrX_v0.7
 trackDb CHM13.chrX_v0.7/trackDb.txt
