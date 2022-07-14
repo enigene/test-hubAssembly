@@ -6,7 +6,7 @@ visibility dense
 colorByStrand 150,100,30 230,170,40
 color 150,100,30
 altColor 230,170,40
-bigDataUrl bbi/RP11.bb
+bigDataUrl bbi/rp11.cenY.bb
 type bigBed 4
 html ../trackDescriptions/assembly
 url http://www.ncbi.nlm.nih.gov/nuccore/$$
