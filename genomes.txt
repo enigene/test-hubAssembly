@@ -51,6 +51,7 @@ blat 85.89.113.150 17879
 transBlat 85.89.113.150 17878
 
 genome RP11
+trackDb RP11/trackDb.txt
 description RP11 chrY
 twoBitPath RP11/rp11.cenY.2bit
 organism Homo Sapiens
