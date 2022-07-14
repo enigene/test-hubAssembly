@@ -1,0 +1,14 @@
+track assembly_
+shortLabel RP11
+longLabel RP11 chrY
+priority 1
+visibility dense
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl bbi/RP11.bb
+type bigBed 4
+html ../trackDescriptions/assembly
+url http://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database
+group assembly
